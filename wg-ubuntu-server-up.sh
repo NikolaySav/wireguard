@@ -3,6 +3,8 @@
 #     wg-ubuntu-server-up.sh [--clients=<clients_count>] [--no-reboot] [--no-unbound]
 #
 
+sudo apt-get install curl
+
 set -e # exit when any command fails
 set -x # enable print all commands
 
