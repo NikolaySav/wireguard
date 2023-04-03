@@ -3,6 +3,8 @@
 #     wg-ubuntu-server-up.sh [--clients=<clients_count>] [--no-reboot] [--no-unbound]
 #
 
+sudo apt-get install curl
+
 set -e # exit when any command fails
 set -x # enable print all commands
 
@@ -47,7 +49,7 @@ apt install -y qrencode
 
 echo -------------------------------------------------- download wg-genconfig.sh
 cd "${working_dir}" &&
-wget https://raw.githubusercontent.com/drew2a/wireguard/master/wg-genconf.sh
+wget https://raw.githubusercontent.com/NikolaySav/wireguard/master/wg-genconf.sh
 chmod +x ./wg-genconf.sh
 
 echo ----------------------generate configurations for "${clients}" clients

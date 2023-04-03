@@ -1,12 +1,12 @@
-[![Build Status](https://travis-ci.com/drew2a/wireguard.svg?branch=master)](https://travis-ci.com/drew2a/wireguard)
-[![Maintainability](https://api.codeclimate.com/v1/badges/2092ead49a2e82b38f64/maintainability)](https://codeclimate.com/github/drew2a/wireguard/maintainability)
+[![Build Status](https://travis-ci.com/NikolaySav/wireguard.svg?branch=master)](https://travis-ci.com/NikolaySav/wireguard)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2092ead49a2e82b38f64/maintainability)](https://codeclimate.com/github/NikolaySav/wireguard/maintainability)
 
 # Wireguard
 
 This repository contains scripts that make it easy to configure [WireGuard](https://www.wireguard.com)
 on [VPS](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-Medium article: [How to deploy WireGuard node on a DigitalOcean's droplet](https://medium.com/@drew2a/replace-your-vpn-provider-by-setting-up-wireguard-on-digitalocean-6954c9279b17)
+Medium article: [How to deploy WireGuard node on a DigitalOcean's droplet](https://medium.com/@NikolaySav/replace-your-vpn-provider-by-setting-up-wireguard-on-digitalocean-6954c9279b17)
 
 ## Quick Start
 
