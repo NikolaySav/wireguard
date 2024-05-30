@@ -69,11 +69,11 @@ Options:
 ### Example of usage
 
 ```bash
-./wg-ubuntu-server-up.sh
+sudo ./wg-ubuntu-server-up.sh
 ```
 
 ```bash
-./wg-ubuntu-server-up.sh --clients=10
+sudo ./wg-ubuntu-server-up.sh --clients=20
 ```
 
 ## wg-debian-server-up.sh
